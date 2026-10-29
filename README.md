@@ -36,8 +36,7 @@ Images go in `public/` (existing WordPress media lives in `public/wp-content/upl
 
 ## Search engine indexing
 
-Pages are `noindex` unless the build runs with the environment variable `INDEXING=true`
-(set it on the production Cloudflare build only, so preview builds never get indexed).
+Pages are indexable (`index, follow`). To build a noindexed copy, set `INDEXING=false` in the build environment.
 
 ## Commands
 

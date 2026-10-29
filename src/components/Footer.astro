@@ -1,5 +1,6 @@
 ---
 import { FOOTER, SITE } from '../site';
+import Social from './Social.astro';
 const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
@@ -13,7 +14,7 @@ const year = new Date().getFullYear();
     {FOOTER.social.length > 0 && (
       <>
         <h2 class="foot-h">Follow us</h2>
-        <div class="chips">{FOOTER.social.map((l) => <a class="chip" href={l.href} rel="noopener">{l.label}</a>)}</div>
+        <Social />
       </>
     )}
     <div class="foot-info small">

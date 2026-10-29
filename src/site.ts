@@ -11,9 +11,8 @@ export const SITE = {
   // Post shown in the large hero slot on the homepage (same as the old site).
   heroSlug: 'what-ive-learned-watching-players-enjoy-social-casino-games',
   postsPerPage: 9,
-  // Search engines: set INDEXING=true in the Cloudflare build env for production.
-  // Anything else (staging/previews) is served noindex.
-  indexing: import.meta.env.INDEXING === 'true',
+  // Indexed by search engines. Set INDEXING=false in the build env to noindex a build.
+  indexing: import.meta.env.INDEXING !== 'false',
   promo: {
     href: 'https://www.jackpota.com/register',
     image: '/wp-content/uploads/2026/01/Jackpota_Banner_Ad.jpg',
@@ -44,5 +43,12 @@ export const FOOTER = {
     { label: 'All New', href: 'https://www.jackpota.com/games/slots/newest' },
     { label: 'Slots', href: 'https://www.jackpota.com/games/slots' },
   ],
-  social: [] as { label: string; href: string }[],
+  social: [
+    { label: 'Facebook', href: 'https://www.facebook.com/jackpotadotcom' },
+    { label: 'Instagram', href: 'https://www.instagram.com/jackpotacom/' },
+    { label: 'X', href: 'https://twitter.com/jackpotacom' },
+    { label: 'TikTok', href: 'https://www.tiktok.com/@jackpotacom' },
+    { label: 'Discord', href: 'https://discord.gg/4MFxGgp3Fc' },
+    { label: 'YouTube', href: 'https://www.youtube.com/@Jackpotacom' },
+  ],
 };
