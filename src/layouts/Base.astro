@@ -1,0 +1,91 @@
+---
+import '@fontsource/ubuntu/400.css';
+import '@fontsource/ubuntu/500.css';
+import '@fontsource/ubuntu/700.css';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../site';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string | null;
+  imageWidth?: number;
+  imageHeight?: number;
+  type?: 'website' | 'article';
+  published?: Date;
+  modified?: Date;
+  authorName?: string;
+  schema?: Record<string, unknown>[];
+  noindex?: boolean;
+  prev?: string;
+  next?: string;
+}
+
+const p = Astro.props;
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const description = p.description || SITE.description;
+const image = new URL(p.image || SITE.ogImage, SITE.url).href;
+const robots =
+  SITE.indexing && !p.noindex
+    ? 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+    : 'noindex, nofollow';
+
+const graph = [
+  {
+    '@type': 'WebSite',
+    '@id': `${SITE.url}/#website`,
+    url: `${SITE.url}/`,
+    name: SITE.name,
+    description: SITE.title,
+    publisher: { '@id': `${SITE.url}/#organization` },
+    inLanguage: 'en-US',
+  },
+  {
+    '@type': 'Organization',
+    '@id': `${SITE.url}/#organization`,
+    name: 'Jackpota',
+    url: 'https://www.jackpota.com/',
+    logo: { '@type': 'ImageObject', url: new URL(SITE.logo, SITE.url).href },
+  },
+  ...(p.schema || []),
+];
+---
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{p.title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonical} />
+    {p.prev && <link rel="prev" href={new URL(p.prev, SITE.url).href} />}
+    {p.next && <link rel="next" href={new URL(p.next, SITE.url).href} />}
+    <link rel="icon" href="/favicon.png" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/feed/" />
+    <meta property="og:locale" content={SITE.locale} />
+    <meta property="og:type" content={p.type || 'website'} />
+    <meta property="og:title" content={p.title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:image" content={image} />
+    {p.imageWidth && <meta property="og:image:width" content={String(p.imageWidth)} />}
+    {p.imageHeight && <meta property="og:image:height" content={String(p.imageHeight)} />}
+    {p.published && <meta property="article:published_time" content={p.published.toISOString()} />}
+    {p.modified && <meta property="article:modified_time" content={p.modified.toISOString()} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    {p.authorName && <meta name="author" content={p.authorName} />}
+    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })} />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <Header />
+    <main id="content" class="wrap">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

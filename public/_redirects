@@ -1,0 +1,16 @@
+# Old WordPress URLs that no longer exist on the static site.
+/feed/                    /rss.xml        200
+/feed                     /rss.xml        200
+/sitemap.xml              /sitemap_index.xml 301
+/wp-sitemap.xml           /sitemap_index.xml 301
+/elementor-hf-sitemap.xml /sitemap_index.xml 301
+/elementor-hf/*           /               301
+/tag/*                    /               301
+/2025/*                   /               301
+/2026/*                   /               301
+/category/classic/        /               301
+/category/table-games/    /               301
+/category/uncategorized/  /               301
+/wp-admin/*               /               301
+/wp-login.php             /               301
+/comments/feed/           /rss.xml        301

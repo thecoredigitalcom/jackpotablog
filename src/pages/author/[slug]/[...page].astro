@@ -1,0 +1,21 @@
+---
+import ArchivePage from '../../../components/ArchivePage.astro';
+import { SITE } from '../../../site';
+import { getPosts, paginate, allAuthors, authorUrl } from '../../../lib/data';
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return allAuthors.flatMap((a) => {
+    const mine = posts.filter((p) => p.data.author === a.slug);
+    if (!mine.length) return [];
+    return paginate(mine, SITE.postsPerPage).map((pg) => ({
+      params: { slug: a.slug, page: pg.page === 1 ? undefined : `page/${pg.page}` },
+      props: { a, pg },
+    }));
+  });
+}
+const { a, pg } = Astro.props;
+const person = { '@type': 'Person', name: a.name, url: new URL(authorUrl(a.slug), SITE.url).href, description: a.bio || undefined, image: a.avatar };
+---
+<ArchivePage name={a.name} heading={a.name} intro={a.bio} base={authorUrl(a.slug)}
+  page={pg.page} pages={pg.pages} posts={pg.items}
+  seoTitle={`${a.name}, Author at Jackpota Blog`} description={a.bio?.slice(0, 155)} extraSchema={[person]} />

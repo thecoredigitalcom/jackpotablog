@@ -1,0 +1,22 @@
+---
+import { SITE } from '../site';
+import { getPosts, postUrl } from '../lib/data';
+interface Props { heading?: string }
+const featured = (await getPosts()).slice(0, 3);
+---
+<aside class="sidebar">
+  <a class="promo" href={SITE.promo.href}><img src={SITE.promo.image} alt={SITE.promo.alt} width="388" height="608" loading="lazy" /></a>
+  <div class="panel">
+    <h2>{Astro.props.heading || 'Featured'}</h2>
+    <ul class="mini">
+      {featured.map((p) => (
+        <li>
+          <a href={postUrl(p)}>
+            {p.data.image && <img src={p.data.image.src} alt="" width="64" height="64" loading="lazy" />}
+            <span>{p.data.title}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</aside>

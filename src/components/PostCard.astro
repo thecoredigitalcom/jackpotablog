@@ -1,0 +1,13 @@
+---
+import { postUrl, type Post } from '../lib/data';
+interface Props { post: Post; eager?: boolean }
+const { post, eager } = Astro.props;
+const img = post.data.image;
+---
+<article class="card">
+  <a href={postUrl(post)} class="card-link">
+    {img && <img src={img.src} alt={img.alt} width={img.width} height={img.height} loading={eager ? 'eager' : 'lazy'} decoding="async" />}
+    <h3>{post.data.title}</h3>
+  </a>
+  {post.data.excerpt && <p>{post.data.excerpt.replace(/[.…\s]+$/, "")}…</p>}
+</article>

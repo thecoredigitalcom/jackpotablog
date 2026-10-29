@@ -1,0 +1,77 @@
+---
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import PostGrid from '../components/PostGrid.astro';
+import { SITE } from '../site';
+import { getPosts, getAuthor, getCategory, categoryUrl, authorUrl, postUrl, readingMinutes, fmtDate, type Post } from '../lib/data';
+import { crumbSchema } from '../lib/listing';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post, posts } }));
+}
+const { post, posts } = Astro.props as { post: Post; posts: Post[] };
+const { Content } = await render(post);
+const d = post.data;
+const author = getAuthor(d.author);
+const cat = getCategory(d.categories[0] || '');
+const url = new URL(postUrl(post), SITE.url).href;
+const img = d.image ? new URL(d.image.src, SITE.url).href : undefined;
+const related = posts.filter((p) => p.id !== post.id && p.data.categories.some((c) => d.categories.includes(c))).slice(0, 3);
+const crumbs = [{ name: 'Home', url: '/' }, ...(cat ? [{ name: cat.name, url: categoryUrl(cat.slug) }] : []), { name: d.title, url: postUrl(post) }];
+const schema = [
+  {
+    '@type': 'BlogPosting',
+    '@id': `${url}#article`,
+    mainEntityOfPage: url,
+    headline: d.title,
+    description: d.seo.description || d.excerpt,
+    image: img ? { '@type': 'ImageObject', url: img, width: d.image?.width, height: d.image?.height } : undefined,
+    datePublished: d.date.toISOString(),
+    dateModified: (d.modified || d.date).toISOString(),
+    author: author ? { '@type': 'Person', name: author.name, url: new URL(authorUrl(author.slug), SITE.url).href } : undefined,
+    publisher: { '@id': `${SITE.url}/#organization` },
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    articleSection: cat?.name,
+    wordCount: (post.body || '').split(/\s+/).filter(Boolean).length,
+    inLanguage: 'en-US',
+  },
+  crumbSchema(crumbs),
+];
+---
+<Base title={d.seo.title || `${d.title} | Jackpota Blog`} description={d.seo.description || d.excerpt}
+  image={d.image?.src} imageWidth={d.image?.width} imageHeight={d.image?.height}
+  type="article" published={d.date} modified={d.modified} authorName={author?.name} schema={schema}>
+  <nav class="crumbs" aria-label="Breadcrumb">
+    {crumbs.slice(0, -1).map((c) => <><a href={c.url}>{c.name}</a> › </>)}<span>{d.title}</span>
+  </nav>
+  <div class="layout">
+    <article>
+      <header class="post-head">
+        <h1>{d.title}</h1>
+        {d.image && <img class="post-hero" src={d.image.src} alt={d.image.alt} width={d.image.width} height={d.image.height} fetchpriority="high" />}
+        <div class="byline">
+          {author && <span>By <a href={authorUrl(author.slug)}>{author.name}</a></span>}
+          <time datetime={d.date.toISOString()}>{fmtDate(d.date)}</time>
+          {cat && <a href={categoryUrl(cat.slug)}>{cat.name}</a>}
+          <span>{readingMinutes(post.body)} min read</span>
+        </div>
+      </header>
+      <div class="prose"><Content /></div>
+      {author && author.bio && (
+        <section class="author-box">
+          {author.avatar && <img src={author.avatar} alt="" width="64" height="64" loading="lazy" />}
+          <div><h2><a href={authorUrl(author.slug)} style="text-decoration:none">{author.name}</a></h2><p>{author.bio}</p></div>
+        </section>
+      )}
+      {related.length > 0 && (
+        <section class="related">
+          <h2 class="section-title">Related Articles</h2>
+          <PostGrid posts={related} />
+        </section>
+      )}
+    </article>
+    <Sidebar />
+  </div>
+</Base>

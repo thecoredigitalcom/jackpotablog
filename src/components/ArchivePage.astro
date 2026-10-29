@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import PostGrid from './PostGrid.astro';
+import Sidebar from './Sidebar.astro';
+import Pagination from './Pagination.astro';
+import { crumbSchema, collectionSchema } from '../lib/listing';
+import type { Post } from '../lib/data';
+interface Props { name: string; heading: string; intro?: string; base: string; page: number; pages: number; posts: Post[]; seoTitle: string; description?: string; extraSchema?: Record<string, unknown>[] }
+const p = Astro.props;
+const url = p.page === 1 ? p.base : `${p.base}page/${p.page}/`;
+const title = p.page === 1 ? p.seoTitle : `${p.seoTitle.replace(/ \| Jackpota Blog$/, '')} - Page ${p.page} of ${p.pages} | Jackpota Blog`;
+---
+<Base title={title} description={p.description}
+  schema={[collectionSchema(url, title), crumbSchema([{ name: 'Home', url: '/' }, { name: p.name, url: p.base }]), ...(p.extraSchema || [])]}
+  prev={p.page > 1 ? (p.page === 2 ? p.base : `${p.base}page/${p.page - 1}/`) : undefined}
+  next={p.page < p.pages ? `${p.base}page/${p.page + 1}/` : undefined}>
+  <div class="page-head"><h1>{p.heading}</h1>{p.intro && <p set:html={p.intro} />}</div>
+  <div class="layout" style="margin-top:24px">
+    <div>
+      <PostGrid posts={p.posts} />
+      <Pagination page={p.page} pages={p.pages} base={p.base} />
+    </div>
+    <Sidebar heading="Trending" />
+  </div>
+</Base>

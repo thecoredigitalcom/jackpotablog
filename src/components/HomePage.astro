@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import PostGrid from './PostGrid.astro';
+import Sidebar from './Sidebar.astro';
+import Pagination from './Pagination.astro';
+import { SITE } from '../site';
+import { getPosts, paginate, postUrl } from '../lib/data';
+import { collectionSchema } from '../lib/listing';
+interface Props { page: number }
+const { page } = Astro.props;
+const posts = await getPosts();
+const hero = posts.find((p) => p.id === SITE.heroSlug);
+const pages = paginate(posts, SITE.postsPerPage);
+const current = pages[page - 1];
+const url = page === 1 ? '/' : `/page/${page}/`;
+const title = page === 1 ? SITE.title : `${SITE.title} - Page ${page} of ${pages.length}`;
+---
+<Base title={title} schema={[collectionSchema(url, title)]}
+  prev={page > 1 ? (page === 2 ? '/' : `/page/${page - 1}/`) : undefined}
+  next={page < pages.length ? `/page/${page + 1}/` : undefined}>
+  <div class="layout">
+    <div>
+      {page === 1 && <h1 class="skip">{SITE.title}</h1>}
+      {page === 1 && hero && (
+        <a class="hero" href={postUrl(hero)}>
+          <img src={hero.data.image?.src} alt={hero.data.image?.alt} width={hero.data.image?.width} height={hero.data.image?.height} fetchpriority="high" />
+          <h2>{hero.data.title}</h2>
+        </a>
+      )}
+      <h2 class="section-title">{page === 1 ? 'All Articles' : `All Articles – Page ${page}`}</h2>
+      <PostGrid posts={current.items} />
+      <Pagination page={page} pages={pages.length} base="/" />
+    </div>
+    <Sidebar />
+  </div>
+</Base>

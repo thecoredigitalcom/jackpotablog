@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "classic",
+    "name": "Classic",
+    "description": "The timeless category for retro or evergreen casino games—fruit machines, classic slots, and old-school card and dice games.",
+    "wpId": 20
+  },
+  {
+    "slug": "instant-games",
+    "name": "Instant Games",
+    "description": "The timeless category for retro or evergreen casino games—fruit machines, classic slots, and old-school card and dice games.",
+    "wpId": 18
+  },
+  {
+    "slug": "slots",
+    "name": "Slots",
+    "description": "The timeless category for retro or evergreen casino games—fruit machines, classic slots, and old-school card and dice games.",
+    "wpId": 17
+  },
+  {
+    "slug": "social-live-casino",
+    "name": "Social Live Casino",
+    "description": "The timeless category for retro or evergreen casino games—fruit machines, classic slots, and old-school card and dice games.",
+    "wpId": 21
+  },
+  {
+    "slug": "table-games",
+    "name": "Table Games",
+    "description": "The timeless category for retro or evergreen casino games—fruit machines, classic slots, and old-school card and dice games.",
+    "wpId": 19
+  },
+  {
+    "slug": "uncategorized",
+    "name": "Uncategorized",
+    "description": "",
+    "wpId": 1
+  }
+]

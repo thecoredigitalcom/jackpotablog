@@ -1,0 +1,21 @@
+---
+import ArchivePage from '../../../components/ArchivePage.astro';
+import { SITE } from '../../../site';
+import { getPosts, paginate, allCategories, categoryUrl } from '../../../lib/data';
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return allCategories.flatMap((cat) => {
+    const inCat = posts.filter((p) => p.data.categories.includes(cat.slug));
+    if (!inCat.length) return [];
+    return paginate(inCat, SITE.postsPerPage).map((pg) => ({
+      params: { slug: cat.slug, page: pg.page === 1 ? undefined : `page/${pg.page}` },
+      props: { cat, pg },
+    }));
+  });
+}
+const { cat, pg } = Astro.props;
+---
+<ArchivePage name={cat.name} heading={cat.name} intro={cat.description} base={categoryUrl(cat.slug)}
+  page={pg.page} pages={pg.pages} posts={pg.items}
+  seoTitle={`${cat.name} Articles | Jackpota Blog`}
+  description={`${cat.name} guides and articles from the official Jackpota blog.`} />
