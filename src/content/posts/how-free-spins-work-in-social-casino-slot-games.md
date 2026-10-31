@@ -6,10 +6,10 @@ author: "sydney-alexander"
 categories: ["instant-games"]
 excerpt: "If you’ve spent any time playing slot games, you’ve probably felt it – that small moment of excitement when free spins appear"
 image:
-  src: "/wp-content/uploads/2026/02/bg3.jpg"
-  alt: "How Free Spins Work in Social Casino Slot Games"
-  width: 1773
-  height: 1182
+  src: "/wp-content/uploads/2026/02/free-spin-features-roaring-tiger.jpg"
+  alt: "Jackpota Roaring Tiger roaring at slot reels lined up with three scatter stars and a Feature badge"
+  width: 1408
+  height: 768
 seo:
   title: "How Free Spins Work in Social Casino Slot Games | Jackpota"
   description: "Discover how free spin features appear in social casino slot games and why players enjoy them as relaxed, playful moments that add variety and fun at Jackpota."

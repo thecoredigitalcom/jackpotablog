@@ -24,6 +24,7 @@ See the main README's featured image rules for size and safe area.
 | How to Choose the Right Social Casino Game | Cartoon wolf and pig (`char-wolf-and-pig-cartoon.png`) | Jackpota brand kit pop-up (25% Extra Coins) |
 | Why Social Casino Games Are More Accessible Today | No character; the app is the hero (live jackpota.com mobile lobby screenshot) | jackpota.com |
 | How Gamification Makes Social Casino Games More Fun | No character; Level 25 shield, XP bar and Hot Game / New Game badges (gold glow) | Brand kit badges |
+| How Free Spins Work in Social Casino Slot Games | Jackpota Roaring Tiger, robed (`char-roaring-tiger.png`) | Jackpota Roaring Tiger ad (brand kit) |
 | Live Dealer Social Casino Games | No character yet (dealer game tiles); to be redone | jackpota.com live dealer tiles |
 | What Are Jackpot Slots? | No character yet (jackpot wheel); to be redone | Brand kit wheel |
 | Why Hold & Win Slots Are Everywhere | No character yet (game tiles); to be redone | jackpota.com game tiles |
@@ -41,3 +42,8 @@ Reference: `templates/style-reference-wolf.html` / `.jpg`. Match Jackpota's own 
 - **Label:** a yellow pill as a subtitle (never a CTA).
 
 **Lesson (post 7):** don't paste partial cutouts. If a character is cut off in the source art, either hide the cut behind an object or the frame edge, or skip the character and make the product, such as the app or game tiles, the hero.
+
+**Lesson (post 9):**
+- Compare every cutout with the original art. The character must keep its signature look, like the Roaring Tiger's red-and-gold robe.
+- If `isnet-general-use` drops parts of a costume, try `u2net` or `isnet-anime`. (`birefnet-general` runs out of memory here.)
+- Never fade a body into nothing. Let it run off the frame edge or hide it behind an object.
