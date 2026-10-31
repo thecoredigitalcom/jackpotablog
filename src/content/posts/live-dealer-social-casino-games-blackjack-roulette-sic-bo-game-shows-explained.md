@@ -6,8 +6,8 @@ author: "p7hvp"
 categories: ["social-live-casino"]
 excerpt: "Live blackjack, roulette, Sic Bo and game shows with real dealers on Jackpota."
 image:
-  src: "/wp-content/uploads/2026/10/Blackjack-Roulette-Sic-Bo-Game-Shows-Explained.jpg"
-  alt: "Live Dealer Social Casino Games: Blackjack, Roulette, Sic Bo & Game Shows Explained"
+  src: "/wp-content/uploads/2026/10/live-dealer-games-explained.jpg"
+  alt: "Jackpota live dealer games: Gravity Blackjack, Live Roulette, Sic Bo and Gravity Wheel game tiles with gold coins"
   width: 1408
   height: 768
 seo:
