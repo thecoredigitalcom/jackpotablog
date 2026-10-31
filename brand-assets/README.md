@@ -22,6 +22,7 @@ See the main README's featured image rules for size and safe area.
 | What Makes a Social Casino Game Worth Coming Back To? | Owl (`char-owl.png`) | Jackpota brand kit promo banner (Preview Banner) |
 | Wilds, Scatters and Multipliers | Wolf (`char-wolf.png`) | Jackpota brand kit promo banner (Lucky Drops Wheel) |
 | How to Choose the Right Social Casino Game | Cartoon wolf and pig (`char-wolf-and-pig-cartoon.png`) | Jackpota brand kit pop-up (25% Extra Coins) |
+| Why Social Casino Games Are More Accessible Today | No character; the app is the hero (live jackpota.com mobile lobby screenshot) | jackpota.com |
 | Live Dealer Social Casino Games | No character yet (dealer game tiles); to be redone | jackpota.com live dealer tiles |
 | What Are Jackpot Slots? | No character yet (jackpot wheel); to be redone | Brand kit wheel |
 | Why Hold & Win Slots Are Everywhere | No character yet (game tiles); to be redone | jackpota.com game tiles |
@@ -37,3 +38,5 @@ Reference: `templates/style-reference-wolf.html` / `.jpg`. Match Jackpota's own 
 - **Topic objects:** glossy gold-framed tiles or props.
 - **Coins:** lots of them flying, some with motion blur.
 - **Label:** a yellow pill as a subtitle (never a CTA).
+
+**Lesson (post 7):** don't paste partial cutouts. If a character is cut off in the source art, either hide the cut behind an object or the frame edge, or skip the character and make the product, such as the app or game tiles, the hero.

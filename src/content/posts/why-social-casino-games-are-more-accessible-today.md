@@ -6,10 +6,10 @@ author: "p7hvp"
 categories: ["instant-games"]
 excerpt: "A forward-looking 2026 analysis on why play-for-fun casinos are set to dominate—covering mobile behavior, psychology, social"
 image:
-  src: "/wp-content/uploads/2026/04/Frame-1.jpg"
-  alt: "Why Social Casino Games Are More Accessible Today"
-  width: 1773
-  height: 1182
+  src: "/wp-content/uploads/2026/04/pocket-sized-playground.jpg"
+  alt: "Phone showing the Jackpota mobile game lobby under a lit Jackpota marquee, with game tiles flying out of the screen"
+  width: 1408
+  height: 768
 seo:
   title: "Why Social Casino Games Are More Accessible Today | Jackpota Blog"
   description: "A product-led look at why modern social casino platforms feel more accessible. Learn how design choices make casino-style games easier to explore and more comfortable for casual play."
