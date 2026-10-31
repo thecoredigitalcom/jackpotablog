@@ -1,0 +1,85 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Baby School';src:url('../BabySchoolItalic.ttf')}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1408px;height:768px;overflow:hidden;background:#02040f}
+body{position:relative;font-family:'Baby School'}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(circle at 74% 46%, #4fb6ff 0%, #1f6bff 14%, rgba(20,60,220,.85) 28%, rgba(10,25,110,.9) 48%, #040a2e 72%, #01030c 100%)}
+.burst{position:absolute;left:1040px;top:350px;width:1800px;height:1800px;transform:translate(-50%,-50%);
+ background:repeating-conic-gradient(from 0deg, rgba(160,220,255,.16) 0deg 4deg, transparent 4deg 12deg);
+ -webkit-mask:radial-gradient(circle,#000 0%,transparent 38%);mask:radial-gradient(circle,#000 0%,transparent 38%)}
+.left{position:absolute;left:0;top:0;width:760px;height:768px;background:linear-gradient(90deg,rgba(1,3,12,.96) 40%,rgba(1,3,12,0))}
+svg.fx{position:absolute;left:0;top:0}
+.wolf{position:absolute;left:790px;top:300px;height:480px;filter:drop-shadow(0 0 26px rgba(120,200,255,.8)) drop-shadow(0 0 60px rgba(60,140,255,.6))}
+/* glossy symbol tiles */
+.sym{position:absolute;border-radius:26px;padding:9px;background:linear-gradient(160deg,#fff3b0,#ffcd36 25%,#e0890d 60%,#8a4400);
+ box-shadow:0 0 0 4px #3a1600,0 0 50px rgba(255,205,54,.75),0 22px 34px rgba(0,0,0,.7)}
+.sym .in{width:100%;height:100%;border-radius:18px;display:flex;align-items:center;justify-content:center;flex-direction:column;
+ background:radial-gradient(circle at 50% 30%,#7b3cff,#2a0b6b 70%);box-shadow:inset 0 0 0 3px rgba(255,255,255,.15),inset 0 -12px 24px rgba(0,0,0,.6)}
+.sym .in::before{content:"";position:absolute;left:14%;right:14%;top:12px;height:28%;border-radius:20px;background:linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,0))}
+/* 3D title */
+.tt{position:absolute;line-height:.9;white-space:nowrap}
+.tt span{display:block;position:relative}
+.tt .b,.tt .f{position:absolute;left:0;top:0}
+.tt .b{color:#2b0f00;-webkit-text-stroke:16px #2b0f00;text-shadow:0 6px 0 #2b0f00,0 10px 0 #1a0800,0 16px 24px rgba(0,0,0,.6)}
+.tt .f{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 18px var(--glow))}
+.w{--g:linear-gradient(180deg,#ffffff 0%,#ffffff 45%,#d9e6ff 55%,#b9c9f0 100%);--glow:rgba(255,255,255,.35)}
+.y{--g:linear-gradient(180deg,#fff7c2 0%,#ffe05a 35%,#ffb400 60%,#ff8a00 100%);--glow:rgba(255,190,40,.55)}
+.gr{--g:linear-gradient(180deg,#d9ffe4 0%,#4dff86 35%,#1ee05c 60%,#0a9a3a 100%);--glow:rgba(30,224,92,.55)}
+.logo{position:absolute;left:185px;top:70px;width:300px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.8))}
+.pill{position:absolute;left:186px;top:505px;padding:12px 30px;border-radius:40px;font-size:30px;color:#3a1600;
+ background:linear-gradient(180deg,#fff2a8,#ffcd36 45%,#f0a000);box-shadow:0 0 0 3px #7a3a00,0 0 26px rgba(255,205,54,.8),inset 0 -6px 0 rgba(160,80,0,.35)}
+.coin{position:absolute;filter:drop-shadow(0 10px 14px rgba(0,0,0,.6))}
+.blur{filter:blur(3px) drop-shadow(0 10px 14px rgba(0,0,0,.6))}
+.spark{position:absolute;border-radius:50%;background:#fff}
+</style></head><body>
+<div class="bg"></div><div class="burst"></div>
+<svg class="fx" id="fx" width="1408" height="768"></svg>
+<div class="left"></div>
+
+<div class="sym" style="left:870px;top:40px;width:230px;height:165px;transform:rotate(-6deg)"><div class="in">
+ <div class="tt y" style="font-size:84px;position:relative"><span><span class="b">WILD</span><span class="f">WILD</span><span style="visibility:hidden">WILD</span></span></div></div></div>
+<div class="sym" style="left:705px;top:225px;width:150px;height:150px;transform:rotate(-12deg)"><div class="in">
+ <div style="font-size:74px;line-height:1;color:#ffcd36;text-shadow:0 0 0 #000,0 4px 0 #6b3000,0 0 24px rgba(255,205,54,.9)">★</div>
+ <div class="tt gr" style="font-size:24px;position:relative"><span><span class="b" style="-webkit-text-stroke:7px #0a2a12">SCATTER</span><span class="f">SCATTER</span><span style="visibility:hidden">SCATTER</span></span></div></div></div>
+<div class="sym" style="left:1100px;top:160px;width:145px;height:145px;transform:rotate(10deg)"><div class="in">
+ <div class="tt gr" style="font-size:78px;position:relative"><span><span class="b">x5</span><span class="f">x5</span><span style="visibility:hidden">x5</span></span></div></div></div>
+
+<img class="wolf" src="../char-wolf.png">
+
+<img class="coin" src="../Coin-024.png" style="left:1150px;top:430px;width:84px;transform:rotate(18deg)">
+<img class="coin" src="../Coin-004.png" style="left:600px;top:610px;width:70px;transform:rotate(-14deg)">
+<img class="coin" src="../Coin-020.png" style="left:1010px;top:250px;width:48px;transform:rotate(30deg)">
+<img class="coin blur" src="../Coin-008.png" style="left:640px;top:40px;width:60px;transform:rotate(-20deg)">
+<img class="coin blur" src="../Coin-006.png" style="left:1215px;top:640px;width:64px;transform:rotate(20deg)">
+
+<img class="logo" src="../logo.png">
+<div class="tt" style="left:180px;top:178px;font-size:104px">
+ <span class="w"><span class="b">WILDS,</span><span class="f">WILDS,</span><span style="visibility:hidden">WILDS,</span></span>
+ <span class="y"><span class="b">SCATTERS</span><span class="f">SCATTERS</span><span style="visibility:hidden">SCATTERS</span></span>
+ <span class="gr" style="font-size:76px"><span class="b">&amp; MULTIPLIERS</span><span class="f">&amp; MULTIPLIERS</span><span style="visibility:hidden">&amp; MULTIPLIERS</span></span>
+</div>
+<div class="pill">A BEGINNER'S GUIDE TO SLOT SYMBOLS</div>
+
+<script>
+// realistic branching lightning
+const svg=document.getElementById('fx');const NS='http://www.w3.org/2000/svg';
+svg.innerHTML='<defs><filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>';
+function bolt(x1,y1,x2,y2,w,depth){
+  let pts=[[x1,y1]];const n=14;
+  for(let i=1;i<n;i++){const t=i/n;pts.push([x1+(x2-x1)*t+(Math.random()-.5)*34,y1+(y2-y1)*t+(Math.random()-.5)*12]);}
+  pts.push([x2,y2]);
+  const p=document.createElementNS(NS,'polyline');p.setAttribute('points',pts.map(a=>a.join(',')).join(' '));
+  p.setAttribute('fill','none');p.setAttribute('stroke','#e9f6ff');p.setAttribute('stroke-width',w);p.setAttribute('filter','url(#gl)');
+  p.setAttribute('stroke-linejoin','round');p.style.opacity=.9;svg.appendChild(p);
+  if(depth>0){for(let k=0;k<2;k++){const a=pts[3+Math.floor(Math.random()*8)];bolt(a[0],a[1],a[0]+(Math.random()-.5)*120,a[1]+60+Math.random()*90,w*.55,depth-1);}}
+}
+Math.seedrandom=null;
+bolt(780,0,850,300,3,1);bolt(1330,0,1250,330,3,1);bolt(1408,470,1260,640,2.4,1);
+// sparkles
+for(let i=0;i<60;i++){const d=document.createElement('div');d.className='spark';const s=2+Math.random()*4;d.style.width=d.style.height=s+'px';
+d.style.left=(680+Math.random()*700)+'px';d.style.top=(Math.random()*760)+'px';d.style.opacity=.4+Math.random()*.6;d.style.boxShadow='0 0 '+(6+s*2)+'px '+(s)+'px rgba(170,220,255,.9)';document.body.appendChild(d);}
+</script>
+</body></html>

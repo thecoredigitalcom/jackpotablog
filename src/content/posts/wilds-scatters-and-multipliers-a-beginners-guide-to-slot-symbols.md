@@ -6,8 +6,8 @@ author: "p7hvp"
 categories: ["slots"]
 excerpt: "Learn how wilds, scatters, multipliers, and other slot symbols work and why the paytable matters"
 image:
-  src: "/wp-content/uploads/2026/09/Gemini_Generated_Image_o2pyuso2pyuso2py.jpg"
-  alt: "Wilds, Scatters and Multipliers: A Beginner’s Guide to Slot Symbols"
+  src: "/wp-content/uploads/2026/09/wilds-scatters-multipliers-wolf.jpg"
+  alt: "Wolf howling at glowing WILD, SCATTER and x5 slot symbols under an electric blue sky with lightning and gold coins"
   width: 1408
   height: 768
 seo:

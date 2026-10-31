@@ -83,7 +83,7 @@ Never use Google Images results, fan art, other casinos' creative or anything wi
 
 **6. Vary from post to post.** Change the layout (text left or right), the glow color (gold, blue, green, red or purple) and the main scene, so neighboring cards never look alike.
 
-**7. Make it fun:** energy and motion, like flying coins, sparkles, tilted elements and a character that reacts to the scene. Keep it playful, never pushy.
+**7. Make it fun, in Jackpota promo-banner style** (see `brand-assets/templates/style-reference-wolf.jpg`). Bright full scenes, glossy 3D headline lettering, big glowing characters, and coins and effects everywhere: energy and motion, like flying coins, sparkles, tilted elements and a character that reacts to the scene. Keep it playful, never pushy.
 
 **8. Stay compliant.** Remove or exclude all of these, even when they're in the source art:
 - green SC coins and bills, or any other money imagery
