@@ -6,9 +6,9 @@ author: "p7hvp"
 categories: ["slots"]
 excerpt: "Discover how Hold & Win slots use respins, locked symbols, bonus features, and jackpots to create evolving gameplay on Jackpota"
 image:
-  src: "/wp-content/uploads/2026/09/Cleopatra-Wilds.jpg"
-  alt: "Hold & Win Slots Explained: How Respins, Bonus Symbols and Jackpots Work"
-  width: 1376
+  src: "/wp-content/uploads/2026/09/hold-and-win-explained-leprechaun.jpg"
+  alt: "Leprechaun from 4 Pots Riches looking over a Hold & Win board with gold coins locked in place"
+  width: 1408
   height: 768
 seo:
   title: "Hold & Win Slots Explained: How Respins, Bonus Symbols and Jackpots Work | Jackpota Blog"
