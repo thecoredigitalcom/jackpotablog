@@ -25,6 +25,7 @@ See the main README's featured image rules for size and safe area.
 | Why Social Casino Games Are More Accessible Today | No character; the app is the hero (live jackpota.com mobile lobby screenshot) | jackpota.com |
 | How Gamification Makes Social Casino Games More Fun | No character; Level 25 shield, XP bar and Hot Game / New Game badges (gold glow) | Brand kit badges |
 | How Free Spins Work in Social Casino Slot Games | Jackpota Roaring Tiger, robed (`char-roaring-tiger.png`) | Jackpota Roaring Tiger ad (brand kit) |
+| Desktop vs. Mobile Casino Play | No character; desktop vs. mobile lobby screenshots with a VS badge (blue and purple) | jackpota.com |
 | Live Dealer Social Casino Games | No character yet (dealer game tiles); to be redone | jackpota.com live dealer tiles |
 | What Are Jackpot Slots? | No character yet (jackpot wheel); to be redone | Brand kit wheel |
 | Why Hold & Win Slots Are Everywhere | No character yet (game tiles); to be redone | jackpota.com game tiles |

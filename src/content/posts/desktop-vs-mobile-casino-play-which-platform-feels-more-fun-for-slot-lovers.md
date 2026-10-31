@@ -6,10 +6,10 @@ author: "mike-rossi"
 categories: ["instant-games"]
 excerpt: "One of the biggest changes in social casino play over the last few years is flexibility"
 image:
-  src: "/wp-content/uploads/2026/04/image-2.jpg"
-  alt: "Desktop vs. Mobile Casino Play: Which Platform Feels More Fun for Slot Lovers?"
-  width: 1772
-  height: 1182
+  src: "/wp-content/uploads/2026/02/desktop-vs-mobile.jpg"
+  alt: "Desktop monitor and phone showing the Jackpota game lobby, facing off with a gold VS badge"
+  width: 1408
+  height: 768
 seo:
   title: "Desktop vs. Mobile Social Casino Play: Which Platform Feels More Fun for Slot Lovers? | Jackpota"
   description: "Explore the differences between desktop and mobile social casino play and see how Jackpota delivers flexible, entertainment-first slot-style games across every device."
