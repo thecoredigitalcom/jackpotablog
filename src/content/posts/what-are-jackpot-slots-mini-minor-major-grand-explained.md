@@ -6,10 +6,10 @@ author: "mike-rossi"
 categories: ["slots"]
 excerpt: "A quick guide to Mini, Minor, Major, and Grand jackpot tiers and how they work"
 image:
-  src: "/wp-content/uploads/2026/09/jackpot-slots-scaled.jpg"
-  alt: "What Are Jackpot Slots? Mini, Minor, Major & Grand Explained"
-  width: 2560
-  height: 1707
+  src: "/wp-content/uploads/2026/09/jackpot-tiers-explained.jpg"
+  alt: "Jackpota jackpot wheel with Mini, Minor, Major and Grand segments beside a ladder of the four jackpot tiers"
+  width: 1408
+  height: 768
 seo:
   title: "What Are Jackpot Slots? Mini, Minor, Major & Grand Explained | Jackpota Blog"
   description: "Discover how Mini, Minor, Major, and Grand jackpot slot tiers work, how fixed vs. progressive prizes differ, and what to check on your screen before playing."
