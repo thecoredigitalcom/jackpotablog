@@ -5,7 +5,7 @@ author: "mike-rossi"
 categories: ["slots"]
 excerpt: "Hold & Win has turned from a single slot feature into a whole design language. Here's why studios keep building on it, and how it shows up across Jackpota's games."
 image:
-  src: "/wp-content/uploads/2026/10/hold-and-win-slots-design-trend.jpg"
+  src: "/wp-content/uploads/2026/10/hold-and-win-slots-trend.jpg"
   alt: "Jackpota logo beside a 3x3 Hold & Win board with locked gold coins, above tiles for Coins of Halloween, 4 Pots Riches Halloween, Jackpota Hold and Win, Guardian of Gold, Piggy Bank Plunder and Bonsai Gold"
   width: 1408
   height: 768
