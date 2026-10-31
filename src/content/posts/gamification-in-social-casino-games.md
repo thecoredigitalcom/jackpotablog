@@ -6,10 +6,10 @@ author: "mike-rossi"
 categories: ["instant-games"]
 excerpt: "Spend a few minutes playing a social casino game and you’ll notice something subtle"
 image:
-  src: "/wp-content/uploads/2026/02/bg2.jpg"
-  alt: "How Gamification Makes Social Casino Games More Fun"
-  width: 1773
-  height: 1182
+  src: "/wp-content/uploads/2026/02/gamification-level-up.jpg"
+  alt: "Gold Level 25 shield with a Level Up banner, glowing XP bar, star medals and Jackpota New Game and Hot Game badges"
+  width: 1408
+  height: 768
 seo:
   title: "Gamification In Social Casino Games | Jackpota Blog"
   description: "Thoughtful gamification like levels, progress, and playful moments makes free-to-play social casino games more enjoyable, relaxed, and engaging at Jackpota."
