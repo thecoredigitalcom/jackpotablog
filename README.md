@@ -30,6 +30,25 @@ Body in Markdown…
 
 Images go in `public/` (existing WordPress media lives in `public/wp-content/uploads/` at the original URLs).
 
+### Featured image rules
+
+The same featured image is cropped differently in each place it appears (`object-fit: cover`):
+
+| Where | Crop |
+| --- | --- |
+| Post cards (homepage, categories, related posts) | 3:2 |
+| Homepage hero | 16:8.5 |
+| Sidebar "Featured" thumbnails | 1:1 (64px) |
+
+So for every new featured image:
+
+- Canvas **1408×768** JPG, under ~250 KB.
+- Keep the logo, headline text and any game tiles inside the **safe area: x 170–1240, y 30–738**. That survives the 3:2 crop, which removes 128px from each side, plus a margin.
+- Put the strongest visual near the center so the square thumbnail still reads.
+- Only background may extend to the edges.
+- Before publishing, check the image cropped to 3:2 (x 128–1280).
+- Images under `/wp-content/*` are cached for a year, so a changed image needs a **new file name**. Don't overwrite the old one.
+
 ## Settings
 
 `src/site.ts` holds the site name, homepage hero post, header/footer links and sidebar promo.
