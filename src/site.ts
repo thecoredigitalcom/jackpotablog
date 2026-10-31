@@ -1,6 +1,8 @@
 // Site-wide settings. Edit here rather than in templates.
 export const SITE = {
-  url: 'https://jackpota.blog',
+  // Canonical host for every URL (canonicals, og, schema, sitemaps, RSS).
+  // jackpota.blog serves the same pages; blogs.jackpota.com is the indexed address.
+  url: 'https://blogs.jackpota.com',
   name: 'Jackpota Blog',
   title: 'The Official Blog of Jackpota.com',
   description:

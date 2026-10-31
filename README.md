@@ -1,6 +1,6 @@
 # Jackpota Blog
 
-Static rebuild of the official Jackpota blog, **https://jackpota.blog**, migrated from WordPress/Elementor.
+Static rebuild of the official Jackpota blog, **https://blogs.jackpota.com** (also served at https://jackpota.blog; canonicals always point to blogs.jackpota.com), migrated from WordPress/Elementor.
 Built with [Astro](https://astro.build) and hosted on Cloudflare Workers (static assets). Every push to `main` deploys.
 
 ## Writing a post
