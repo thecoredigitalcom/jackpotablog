@@ -6,10 +6,10 @@ author: "p7hvp"
 categories: ["social-live-casino"]
 excerpt: "Explore what makes a social casino game worth revisiting, including engaging gameplay, bonus features, themes, pacing, and variety"
 image:
-  src: "/wp-content/uploads/2026/09/Social-Casino-Game-scaled.jpg"
-  alt: "What Makes a Social Casino Game Worth Coming Back To?"
-  width: 2560
-  height: 1707
+  src: "/wp-content/uploads/2026/09/worth-coming-back-to-owl.jpg"
+  alt: "Owl perched on a gold coin stack in front of a moon-like Jackpota coin, beside Coins of Halloween and Bonsai Gold game tiles"
+  width: 1408
+  height: 768
 seo:
   title: "What Makes a Social Casino Game Worth Coming Back To? | Jackpota Blog"
   description: "Discover what makes social casino games worth revisiting, from gameplay and bonuses to themes, variety, and personal preferences."

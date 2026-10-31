@@ -19,6 +19,7 @@ See the main README's featured image rules for size and safe area.
 | Post | Character | Source |
 | --- | --- | --- |
 | Hold & Win Slots Explained | Leprechaun (`char-leprechaun-4-pots-riches.png`) | Playson press art for 4 Pots Riches: Hold and Win, a game on Jackpota |
+| What Makes a Social Casino Game Worth Coming Back To? | Owl (`char-owl.png`) | Jackpota brand kit promo banner (Preview Banner) |
 | Live Dealer Social Casino Games | No character yet (dealer game tiles); to be redone | jackpota.com live dealer tiles |
 | What Are Jackpot Slots? | No character yet (jackpot wheel); to be redone | Brand kit wheel |
 | Why Hold & Win Slots Are Everywhere | No character yet (game tiles); to be redone | jackpota.com game tiles |
