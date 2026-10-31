@@ -6,10 +6,10 @@ author: "p7hvp"
 categories: ["instant-games"]
 excerpt: "Choosing the right social casino game starts with understanding your playing style, preferences, and the features you enjoy most"
 image:
-  src: "/wp-content/uploads/2026/09/How-to-Choose-the-Right-Social-Casino-Game-for-Your-Playing-Style.jpg"
-  alt: "How to Choose the Right Social Casino Game for Your Playing Style"
-  width: 1264
-  height: 843
+  src: "/wp-content/uploads/2026/09/choose-your-playing-style.jpg"
+  alt: "Cartoon wolf and pig under glossy tiles for Classic, Hold & Win, Megaways and Table Games, with confetti and gold coins"
+  width: 1408
+  height: 768
 seo:
   title: "How to Choose the Right Social Casino Game for Your Playing Style | Jackpota Blog"
   description: "Choose the right social casino game for your playing style. Explore game categories, themes, mechanics, pace, complexity, and volatility to find your best fit."
