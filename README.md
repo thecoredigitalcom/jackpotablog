@@ -48,6 +48,51 @@ So for every new featured image:
 - Only background may extend to the edges.
 - Before publishing, check the image cropped to 3:2 (x 128–1280).
 - Images under `/wp-content/*` are cached for a year, so a changed image needs a **new file name**. Don't overwrite the old one.
+- Characters may bleed off the top or bottom edge (a face peeking in from the top, for example), but keep faces and anything important inside the safe area.
+
+### Featured image creative rules
+
+Every featured image should be the best, most fun image we can make. Each one is unique, built around one character and the post's topic, and looks unmistakably like Jackpota.
+
+**1. Build every image around a character.** Pick a character or hero object that fits the post's topic and show it doing something related to it, like tossing coins onto a Hold & Win board. Use each character only once across the blog, and record it in `brand-assets/README.md`.
+
+**2. Source imagery in this order of preference:**
+1. **Jackpota's own imagery:**
+   - the brand kit in `brand-assets/`
+   - characters and art from Jackpota's promo banners
+   - game tiles and art on jackpota.com, especially Jackpota exclusive games and games the post mentions
+2. **Official art from game studios, for games available on Jackpota:** take it from the studio's press release or press kit (Playson, Evoplay, Kalamba, Betsoft and so on). Confirm the game is on jackpota.com, and prefer a game the post links to or is about.
+3. **Free commercial-license libraries** (Pixabay, or CC0 images marked for commercial use), only for generic props like cards, dice or chips.
+
+Never use Google Images results, fan art, other casinos' creative or anything without clear usage rights.
+
+**3. Use the best quality available.** Use the highest-resolution source you can find, ideally 1000px or more for the hero character, and don't upscale more than about 1.5x. If the kit version is small, look for the studio's original art.
+
+**4. Cut out and blend.**
+- Remove backgrounds with `rembg` (model `isnet-general-use`).
+- Mask out any logos, titles, badges or text baked into the source art.
+- Feather hard edges so the character fades into the background.
+- Add a glow in the image's accent color so the character sits in the scene.
+
+**5. Repeat the brand accents on every image:**
+- the Jackpota logo (`brand-assets/logo.png`)
+- a Baby School headline in white and yellow `#FFCD36`, with green `#1EE05C` accents
+- the glowing yellow outline box
+- gold coins and the coin stack
+- a black background with a colored glow and light rays
+
+**6. Vary from post to post.** Change the layout (text left or right), the glow color (gold, blue, green, red or purple) and the main scene, so neighboring cards never look alike.
+
+**7. Make it fun:** energy and motion, like flying coins, sparkles, tilted elements and a character that reacts to the scene. Keep it playful, never pushy.
+
+**8. Stay compliant.** Remove or exclude all of these, even when they're in the source art:
+- green SC coins and bills, or any other money imagery
+- prize amounts, "% more coins" and offer badges
+- Free Spins badges
+- Play Now and other bonus CTAs
+- the word "sweepstakes"
+
+**9. Get approval before publishing.** Share the post title, a 2–3 line summary and the image, and publish only after an OK.
 
 ## Settings
 
