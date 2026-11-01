@@ -6,12 +6,12 @@ const { posts } = Astro.props;
 <section class="carousel" aria-roledescription="carousel" aria-label="Featured articles" data-carousel>
   <div class="carousel-track" data-track>
     {posts.map((p, i) => (
-      <a class="hero carousel-slide" href={postUrl(p)} aria-roledescription="slide" aria-label={`${i + 1} of ${posts.length}: ${p.data.title}`}>
+      <a class="carousel-slide" href={postUrl(p)} aria-roledescription="slide" aria-label={`${i + 1} of ${posts.length}: ${p.data.title}`}>
         {p.data.image && (
           <img src={p.data.image.src} alt={p.data.image.alt} width={p.data.image.width} height={p.data.image.height}
             loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : 'auto'} decoding="async" />
         )}
-        <h2>{p.data.title}</h2>
+        <div class="carousel-caption"><h2>{p.data.title}</h2></div>
       </a>
     ))}
   </div>
