@@ -11,6 +11,16 @@ export async function getPosts(): Promise<Post[]> {
   return all.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 }
 
+/**
+ * Homepage carousel: always `count` posts (if that many exist).
+ * Featured posts first (newest first), then the newest non-featured posts fill the rest.
+ */
+export function carouselPosts(posts: Post[], count = 5): Post[] {
+  const featured = posts.filter((p) => p.data.featured);
+  const rest = posts.filter((p) => !p.data.featured);
+  return [...featured, ...rest].slice(0, count);
+}
+
 export const postUrl = (p: Post) => `/${p.id}/`;
 export const getCategory = (slug: string) => categories.find((c) => c.slug === slug);
 export const getAuthor = (slug: string) => authors.find((a) => a.slug === slug);

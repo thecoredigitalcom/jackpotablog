@@ -1,0 +1,60 @@
+---
+import { postUrl, type Post } from '../lib/data';
+interface Props { posts: Post[] }
+const { posts } = Astro.props;
+---
+<section class="carousel" aria-roledescription="carousel" aria-label="Featured articles" data-carousel>
+  <div class="carousel-track" data-track>
+    {posts.map((p, i) => (
+      <a class="hero carousel-slide" href={postUrl(p)} aria-roledescription="slide" aria-label={`${i + 1} of ${posts.length}: ${p.data.title}`}>
+        {p.data.image && (
+          <img src={p.data.image.src} alt={p.data.image.alt} width={p.data.image.width} height={p.data.image.height}
+            loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : 'auto'} decoding="async" />
+        )}
+        <h2>{p.data.title}</h2>
+      </a>
+    ))}
+  </div>
+  {posts.length > 1 && (
+    <>
+      <button class="carousel-btn prev" type="button" aria-label="Previous article" data-prev>‹</button>
+      <button class="carousel-btn next" type="button" aria-label="Next article" data-next>›</button>
+      <div class="carousel-dots" role="tablist">
+        {posts.map((_, i) => <button type="button" role="tab" aria-label={`Go to article ${i + 1}`} aria-selected={i === 0 ? 'true' : 'false'} data-dot={i}></button>)}
+      </div>
+    </>
+  )}
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-carousel]').forEach((root) => {
+    const track = root.querySelector<HTMLElement>('[data-track]')!;
+    const slides = Array.from(track.children) as HTMLElement[];
+    const dots = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-dot]'));
+    if (slides.length < 2) return;
+    let index = 0;
+    let timer: number | undefined;
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const go = (i: number) => {
+      index = (i + slides.length) % slides.length;
+      track.scrollTo({ left: slides[index].offsetLeft, behavior: reduce ? 'auto' : 'smooth' });
+    };
+    const sync = () => {
+      const i = Math.round(track.scrollLeft / track.clientWidth);
+      index = Math.max(0, Math.min(slides.length - 1, i));
+      dots.forEach((d, n) => d.setAttribute('aria-selected', n === index ? 'true' : 'false'));
+    };
+    const stop = () => { if (timer) window.clearInterval(timer); timer = undefined; };
+    const start = () => { if (reduce) return; stop(); timer = window.setInterval(() => go(index + 1), 6000); };
+    root.querySelector('[data-prev]')?.addEventListener('click', () => { go(index - 1); start(); });
+    root.querySelector('[data-next]')?.addEventListener('click', () => { go(index + 1); start(); });
+    dots.forEach((d, n) => d.addEventListener('click', () => { go(n); start(); }));
+    let raf = 0;
+    track.addEventListener('scroll', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(sync); }, { passive: true });
+    root.addEventListener('mouseenter', stop);
+    root.addEventListener('mouseleave', start);
+    root.addEventListener('focusin', stop);
+    root.addEventListener('focusout', start);
+    document.addEventListener('visibilitychange', () => (document.hidden ? stop() : start()));
+    start();
+  });
+</script>

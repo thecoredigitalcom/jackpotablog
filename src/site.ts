@@ -10,8 +10,8 @@ export const SITE = {
   locale: 'en_US',
   logo: '/wp-content/uploads/2025/10/logo.png',
   ogImage: '/wp-content/uploads/2026/01/Jackpota_Banner_Ad.jpg',
-  // Post shown in the large hero slot on the homepage (same as the old site).
-  heroSlug: 'what-ive-learned-watching-players-enjoy-social-casino-games',
+  // Homepage carousel size. Posts with `featured: true` come first, newest posts fill the rest.
+  carouselCount: 5,
   postsPerPage: 9,
   // Indexed by search engines. Set INDEXING=false in the build env to noindex a build.
   indexing: import.meta.env.INDEXING !== 'false',

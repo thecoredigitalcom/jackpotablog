@@ -23,6 +23,7 @@ seo:
   title: "Post title | Jackpota Blog"
   description: "Meta description, ~150 characters."
 draft: false                      # true = not published
+featured: false                   # true = pinned to the homepage carousel
 ---
 
 Body in Markdown…
@@ -94,9 +95,18 @@ Never use Google Images results, fan art, other casinos' creative or anything wi
 
 **9. Get approval before publishing.** Share the post title, a 2–3 line summary and the image, and publish only after an OK.
 
+## Homepage carousel
+
+The top of the homepage is a carousel that **always shows 5 posts**:
+
+1. Posts with `featured: true` in their front matter come first, newest first.
+2. The newest non-featured posts fill the remaining slots.
+
+To pin a post, add `featured: true` to its front matter. To unpin it, remove the line. If more than 5 posts are featured, only the 5 newest featured posts show. The count lives in `src/site.ts` (`carouselCount`), and the logic is `carouselPosts()` in `src/lib/data.ts`.
+
 ## Settings
 
-`src/site.ts` holds the site name, homepage hero post, header/footer links and sidebar promo.
+`src/site.ts` holds the site name, carousel size, header/footer links and sidebar promo.
 
 ## Search engine indexing
 

@@ -17,6 +17,7 @@ const posts = defineCollection({
       .optional(),
     seo: z.object({ title: z.string().optional(), description: z.string().optional() }).default({}),
     draft: z.boolean().default(false),
+    featured: z.boolean().default(false),
     wpId: z.number().optional(),
   }),
 });

@@ -4,12 +4,13 @@ import PostGrid from './PostGrid.astro';
 import Sidebar from './Sidebar.astro';
 import Pagination from './Pagination.astro';
 import { SITE } from '../site';
-import { getPosts, paginate, postUrl } from '../lib/data';
+import { getPosts, paginate, carouselPosts } from '../lib/data';
+import Carousel from './Carousel.astro';
 import { collectionSchema } from '../lib/listing';
 interface Props { page: number }
 const { page } = Astro.props;
 const posts = await getPosts();
-const hero = posts.find((p) => p.id === SITE.heroSlug);
+const slides = carouselPosts(posts, SITE.carouselCount);
 const pages = paginate(posts, SITE.postsPerPage);
 const current = pages[page - 1];
 const url = page === 1 ? '/' : `/page/${page}/`;
@@ -21,12 +22,7 @@ const title = page === 1 ? SITE.title : `${SITE.title} - Page ${page} of ${pages
   <div class="layout">
     <div>
       {page === 1 && <h1 class="skip">{SITE.title}</h1>}
-      {page === 1 && hero && (
-        <a class="hero" href={postUrl(hero)}>
-          <img src={hero.data.image?.src} alt={hero.data.image?.alt} width={hero.data.image?.width} height={hero.data.image?.height} fetchpriority="high" />
-          <h2>{hero.data.title}</h2>
-        </a>
-      )}
+      {page === 1 && slides.length > 0 && <Carousel posts={slides} />}
       <h2 class="section-title">{page === 1 ? 'All Articles' : `All Articles – Page ${page}`}</h2>
       <PostGrid posts={current.items} />
       <Pagination page={page} pages={pages.length} base="/" />
