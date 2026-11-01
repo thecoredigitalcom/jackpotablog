@@ -19,6 +19,7 @@ const title = page === 1 ? SITE.title : `${SITE.title} - Page ${page} of ${pages
 <Base title={title} schema={[collectionSchema(url, title)]}
   prev={page > 1 ? (page === 2 ? '/' : `/page/${page - 1}/`) : undefined}
   next={page < pages.length ? `/page/${page + 1}/` : undefined}>
+  {page === 1 && <meta slot="head" name="google-site-verification" content="VnU-Q1onk6pjLqyVSA-zpClIoJUO7HVCM7TaHJbPVPk" />}
   <div class="layout">
     <div>
       {page === 1 && <h1 class="skip">{SITE.title}</h1>}

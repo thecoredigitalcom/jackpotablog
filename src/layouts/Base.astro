@@ -78,6 +78,7 @@ const graph = [
     {p.modified && <meta property="article:modified_time" content={p.modified.toISOString()} />}
     <meta name="twitter:card" content="summary_large_image" />
     {p.authorName && <meta name="author" content={p.authorName} />}
+    <slot name="head" />
     <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })} />
   </head>
   <body>
