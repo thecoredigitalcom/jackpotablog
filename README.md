@@ -95,6 +95,10 @@ Never use Google Images results, fan art, other casinos' creative or anything wi
 
 **9. Get approval before publishing.** Share the post title, a 2–3 line summary and the image, and publish only after an OK.
 
+## Voice
+
+Posts are published by Jackpota, so write in **first person**: "we," "our games," "our YouTube channel." Don't refer to Jackpota in the third person, and don't cite third-party news sites as the source for Jackpota's own campaigns. Write in the assigned author persona's voice (see the jackpota-blog-writing skill).
+
 ## Homepage carousel
 
 The top of the homepage is a carousel that **always shows 5 posts**:
