@@ -13,4 +13,6 @@
 /category/uncategorized/  /               301
 /wp-admin/*               /               301
 /wp-login.php             /               301
+/author/p7hvp/           /               301
+/author/p7hvp/*          /               301
 /comments/feed/           /rss.xml        301
