@@ -31,6 +31,7 @@ See the main README's featured image rules for size and safe area.
 | What Are Jackpot Slots? | No character yet (jackpot wheel); to be redone | Brand kit wheel |
 | Why Hold & Win Slots Are Everywhere | No character yet (game tiles); to be redone | jackpota.com game tiles |
 | The Jackpota App: How It Works, From the Lobby to Tournaments | No character; two iPhone 16 devices showing the real app lobby and tournament screens, with a gold trophy (electric blue) | Jackpota iOS app screenshots |
+| Why Egyptian Slots Never Go Out of Style | Team lineup: Cleopatra (Cleopatra Wilds), golden pharaoh (Giza Fortunes), cartoon mummy (Magic Mummy Megaways), plus Scarab Temple pyramid and Coins of Ra coin (superhero poster, cyan/gold rim light) | jackpota.com game tiles |
 
 Character art from the brand kit's promo banners (owl, wolf, tiger, buffalo, fortune god, cupid, tiki, mariachi and others) can be cut out for future posts. Remove any baked-in badges, text and green SC bills.
 
