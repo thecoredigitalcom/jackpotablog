@@ -149,6 +149,9 @@ main.wrap { padding-block: 0 56px; }
 .prose figure { margin: 1.4em 0; }
 .prose figure img { margin: 0; width: 100%; }
 .prose figcaption { font-size: 14px; color: #a8a8a8; margin-top: 8px; }
+/* Phone screenshots: keep them phone-sized instead of full column width */
+.prose figure.phone { max-width: 320px; margin-left: auto; margin-right: auto; }
+.prose figure.phone figcaption { text-align: center; }
 
 /* Video cards: thumbnail + play button linking to the video (fast, always shows an image) */
 .prose .video-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 1.4em 0; }
