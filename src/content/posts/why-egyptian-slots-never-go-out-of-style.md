@@ -63,7 +63,7 @@ Studios also tend to try new formats on Egypt. When Playson released [its first 
 
 ## The Cleopatra effect
 
-If Egyptian slots have a face, it's Cleopatra. In our own keyword research, "cleopatra slots" draws about 1,300 US searches a month (Semrush, September 2026). That's more than any other Egyptian sub-theme, with pharaoh and pyramid searches well behind.
+If Egyptian slots have a face, it's Cleopatra. She has a whole family of games in our lobby: eight Cleopatra and queen titles from several different studios.
 
 It makes sense. Cleopatra is a real historical figure with centuries of legend, film and art behind her, which gives designers a character rather than just a setting. Our lobby has several takes on her, including [Cleopatra Wilds Hold and Win](https://www.jackpota.com/games/slots/cleopatra-wilds-hold-and-win), Legend of Cleopatra Megaways and Fortunes of Cleopatra. If you're curious how Hold & Win games work, our [Hold & Win explainer](/hold-win-slots-explained-how-respins-bonus-symbols-and-jackpots-work/) covers the basics.
 
