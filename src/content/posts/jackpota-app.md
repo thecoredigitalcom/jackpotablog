@@ -43,6 +43,8 @@ When you open the app, you land in the lobby. A row of tabs across the top (Home
   <figcaption>The lobby in our iPhone app.</figcaption>
 </figure>
 
+If you'd like a starting point, some of the most popular slots in the app include [Voltage Blitz Rapid Boost](https://www.jackpota.com/games/slots/voltage-blitz-rapid-boost), [Super Mummy Link](https://www.jackpota.com/games/slots/super-mummy-link), [Multidiamond XXL: Plus Spin](https://www.jackpota.com/games/slots/multidiamond-xxl-spins-plus), [Devils 3 Piggy Hotfire Hold & Win](https://www.jackpota.com/games/slots/devils-3-piggy-hotfire-hold-and-win) and [Blazing Bison Gold Blitz Ultimate DOUBLE X](https://www.jackpota.com/games/slots/blazing-bison-gold-blitz-ultimate-double-x). Each one opens from the lobby like any other game.
+
 Inside a game, the screen is built for one hand: the reels take up most of the space, with the controls within thumb reach.
 
 <figure class="phone">
