@@ -28,7 +28,7 @@ That's the whole idea. There's nothing to cash out, so a session is closer to pl
 Right now the app is available for iPhone only, through the Apple App Store. Search for Jackpota there, or go straight to our [Jackpota iPhone app on the App Store](https://apps.apple.com/us/app/jackpota-big-jackpots-slots/id6504532739).
 
 <figure>
-  <img src="/wp-content/uploads/2026/11/jackpota-app-store-listing.jpg" alt="Jackpota: Big Jackpots & Slots on the Apple App Store, listed for iPhone by Silver Social Operations Limited" width="1120" height="278" loading="lazy" />
+  <img src="/wp-content/uploads/2026/11/jackpota-app-store-listing-full.jpg" alt="The Jackpota: Big Jackpots & Slots listing on the Apple App Store, with app details and preview screenshots" width="1120" height="727" loading="lazy" />
   <figcaption>Our listing on the App Store.</figcaption>
 </figure>
 
