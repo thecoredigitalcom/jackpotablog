@@ -6,10 +6,10 @@ author: "max-konstantin"
 categories: ["table-games"]
 excerpt: "A dealer's walk through one hand of blackjack: card values, hard and soft totals, hit, stand, split and double, and the rules the dealer has to follow."
 image:
-  src: "/wp-content/uploads/2026/02/ab5.jpg"
-  alt: "Cartoon superhero bursting out of a pile of gold coins in front of a wall of slot game tiles"
-  width: 1773
-  height: 1182
+  src: "/wp-content/uploads/2026/11/blackjack-basics-featured.jpg"
+  alt: "A caped superhero bursting through a red burst of light beside glossy ace and king playing cards and a 21 tile, with gold coins flying"
+  width: 1408
+  height: 768
 seo:
   title: "Blackjack Basics: How a Hand Plays Out | Jackpota Blog"
   description: "How a blackjack hand works from deal to finish: card values, hard vs. soft hands, hit, stand, split, double down and the dealer's fixed rules."

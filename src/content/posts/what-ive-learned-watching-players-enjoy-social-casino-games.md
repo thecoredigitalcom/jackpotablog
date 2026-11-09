@@ -6,10 +6,10 @@ author: "sydney-alexander"
 categories: ["instant-games"]
 excerpt: "Practical habits that keep social casino play light: deciding on time before you start, choosing games by mood, and the limit tools that do the remembering for you."
 image:
-  src: "/wp-content/uploads/2026/02/ab7.jpg"
-  alt: "Pink slot machine with a JACKPOT sign and 7s on the reels, surrounded by flying gold coins"
-  width: 1773
-  height: 1182
+  src: "/wp-content/uploads/2026/11/keep-social-casino-games-fun-featured.jpg"
+  alt: "A pink jackpot slot machine next to a gold stopwatch, surrounded by gold coins in a magenta glow"
+  width: 1408
+  height: 768
 seo:
   title: "How to Keep Social Casino Games Fun: Simple Habits | Jackpota Blog"
   description: "Simple habits that keep social casino games enjoyable: set a time before you start, pick games by mood, and use session limits and time-outs."

@@ -6,10 +6,10 @@ author: "mike-rossi"
 categories: ["slots"]
 excerpt: "A product designer's guide to slots on a phone: which layouts read well on a small screen, which take more attention, and where to start in our lobby."
 image:
-  src: "/wp-content/uploads/2026/04/image-3.jpg"
-  alt: "Colorful artwork of a phone showing slot reels, surrounded by numbered balls and gold coins"
-  width: 1772
-  height: 1182
+  src: "/wp-content/uploads/2026/11/best-mobile-slots-featured.jpg"
+  alt: "A phone with slot reels showing 7s, a star and cherries bursting out of a teal glow, surrounded by gold coins"
+  width: 1408
+  height: 768
 seo:
   title: "Best Mobile Slots at Jackpota: What Plays Well on a Phone | Jackpota Blog"
   description: "Which slots work best on a phone? How reel layouts, symbol size and features read on a small screen, plus Jackpota slots to start with on mobile."

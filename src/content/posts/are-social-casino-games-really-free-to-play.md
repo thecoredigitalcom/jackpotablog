@@ -6,10 +6,10 @@ author: "sydney-alexander"
 categories: ["instant-games"]
 excerpt: "Yes. Here's what you play with, what costs nothing, what's optional, and how social casino games differ from real-money gambling."
 image:
-  src: "/wp-content/uploads/2026/04/image-4.jpg"
-  alt: "Illustrated mythological figures with a trident and a hammer, standing in front of pyramids and a Greek temple"
-  width: 1772
-  height: 1182
+  src: "/wp-content/uploads/2026/11/are-social-casino-games-free-to-play-featured.jpg"
+  alt: "Three mythological figures with a trident, spear and hammer in a golden glow, with gold coins flying"
+  width: 1408
+  height: 768
 seo:
   title: "Are Social Casino Games Really Free to Play? | Jackpota Blog"
   description: "Yes, social casino games are free to play. What Gold Coins are, what's optional, how it differs from real-money gambling, and how to set limits."
