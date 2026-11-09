@@ -37,13 +37,13 @@ None of these is the right answer. A game packed with features can delight one p
 
 Categories are a useful shortcut because they group games by format. In [our games library](https://www.jackpota.com/games), a few are especially helpful when you're getting started.
 
-**Classic** suits people who like familiar mechanics and a simple format. There's nothing extra to learn, which makes it a comfortable first stop if you're new or simply prefer things uncomplicated.
+**Classic** suits people who like familiar mechanics and a simple format. There's nothing extra to learn, which makes it a comfortable first stop if you're new or simply prefer things uncomplicated. Simple grids are also the [easiest slots to play on a phone](/best-mobile-slot-games-at-jackpota/).
 
 **Hold & Win** suits people who enjoy special symbols and a feature that builds as you watch. If you're curious how it works, our [Hold & Win explainer](/hold-win-slots-explained-how-respins-bonus-symbols-and-jackpots-work/) walks through it. More features don't make a game better, just different.
 
 **Megaways** suits people who like less conventional slots. Part of the appeal is that the reel layout changes, so it feels different from a fixed-grid game.
 
-**Table games and hosted formats** suit people who enjoy cards, wheels and dice, or who like the feel of a host guiding the game. It's a noticeably different rhythm from an animated slot.
+**Table games and hosted formats** suit people who enjoy cards, wheels and dice, or who like the feel of a host guiding the game. It's a noticeably different rhythm from an animated slot. If blackjack is new to you, our [blackjack basics](/blackjack-basics-understanding-the-flow-of-the-game/) explain how a hand plays out.
 
 ## Think about the pace you like
 
@@ -98,4 +98,4 @@ Availability depends on where you live, so check the current requirements before
 
 There's no single game that's right for everyone. If you like simplicity, start with Classic. If features intrigue you, try Hold & Win. If you want something different, look at Megaways or a hosted table game.
 
-Most of all, play the games that feel good, at a pace that feels good. If a game stops being fun, trying another or taking a break is always the right call.
+Most of all, play the games that feel good, at a pace that feels good. If a game stops being fun, trying another or taking a break is always the right call. A few [simple habits](/what-ive-learned-watching-players-enjoy-social-casino-games/) make that easier.

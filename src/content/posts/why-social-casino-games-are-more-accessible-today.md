@@ -34,7 +34,7 @@ When casino-style games adopt that pattern, they simply feel familiar. You alrea
 
 ## People explore differently when nothing is at stake
 
-When trying something costs nothing, behavior changes. People sample more games, move between them more freely and don't feel locked into one experience.
+When trying something [costs nothing](/are-social-casino-games-really-free-to-play/), behavior changes. People sample more games, move between them more freely and don't feel locked into one experience.
 
 One thing that stands out from the product side is how comfortably people step away mid-session. They'll try a game for a few minutes, close it and return another day without feeling they left anything unfinished. That flexibility makes the whole thing easier to fit around everyday life, which is exactly where entertainment belongs.
 

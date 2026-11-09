@@ -15,7 +15,7 @@ seo:
 draft: false
 ---
 
-Our app is Jackpota on your iPhone: the same free-to-play social casino, shaped for a phone screen. It's free to download and free to play, no purchase necessary, and no real money is involved at any point. Below is a plain walk-through of what it is, how to get it, what you'll see when you open it, and how tournaments let you play alongside other people instead of on your own.
+Our app is Jackpota on your iPhone: the same free-to-play social casino, shaped for a phone screen. It's free to download and [free to play](/are-social-casino-games-really-free-to-play/), no purchase necessary, and no real money is involved at any point. Below is a plain walk-through of what it is, how to get it, what you'll see when you open it, and how tournaments let you play alongside other people instead of on your own.
 
 ## What the Jackpota app is
 
@@ -32,7 +32,7 @@ Right now the app is available for iPhone only, through the Apple App Store. Sea
   <figcaption>Our listing on the App Store.</figcaption>
 </figure>
 
-If you're on Android or a computer, you aren't left out. You can [play in your web browser](https://www.jackpota.com/) with the same games and the same free-to-play setup, so nothing about the experience depends on which phone you own. If you're curious how the two feel side by side, we've written about [desktop vs. mobile play](/desktop-vs-mobile-casino-play-which-platform-feels-more-fun-for-slot-lovers/).
+If you're on Android or a computer, you aren't left out. You can [play in your web browser](https://www.jackpota.com/) with the same games and the same free-to-play setup, so nothing about the experience depends on which phone you own. If you're curious how the two feel side by side, we've written about [which slots play best on a phone](/best-mobile-slot-games-at-jackpota/).
 
 ## Finding your way around
 

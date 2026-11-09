@@ -56,6 +56,12 @@ There's no correct pace, only the one that feels comfortable to you.
 
 Even a game you like can start to feel samey. Variety can come from multiple features, changing reel layouts, different modes or new visual moments. Some games are deliberately simple, though, and that's part of their charm. It's about matching the amount of variety to what you enjoy.
 
+## Levels and progress bars are decoration, not goals
+
+Many social casino games borrow ideas from video games: levels, progress bars, badges for trying something new. Designers call this gamification. Done well, it gives a session a little shape, a small moment of recognition when you reach a level or try a new kind of game.
+
+It's worth seeing it for what it is, though. A progress bar measures how much you've played, not how well, and filling one doesn't change how any game behaves. If a game is only fun because a bar is nearly full, that's a sign the game itself isn't doing much for you.
+
 ## Clear rules make a game easier to enjoy
 
 It's hard to relax into a game you don't understand. A good game makes its info screen easy to find: what the symbols mean, how combinations form, what the wilds and scatters do and what starts a feature.
@@ -90,4 +96,4 @@ You don't need to pick a favorite right away. Trying a few formats is often the 
 
 We built Jackpota as free-to-play entertainment, and that's how we'd like you to judge our games: by whether they're fun, not by what they might deliver. Wilds, bonus rounds, multipliers and volatility all describe how a game works. None of them is a way to predict results.
 
-The games worth coming back to are the ones whose gameplay, look and pace make you happy to see them again. And if a game stops feeling fun, taking a break or doing something else entirely is always a good choice.
+The games worth coming back to are the ones whose gameplay, look and pace make you happy to see them again. And if a game stops feeling fun, taking a break or doing something else entirely is always a good choice. Our [habits for keeping play fun](/what-ive-learned-watching-players-enjoy-social-casino-games/) cover how to make that easy.

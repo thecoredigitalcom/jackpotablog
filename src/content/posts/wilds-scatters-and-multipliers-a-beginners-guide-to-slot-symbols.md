@@ -63,6 +63,18 @@ Scatters are most often linked to:
 
 One game might start a feature with three scatters; another might use a different number or a different feature entirely. There's no universal scatter rule, and seeing a scatter on screen doesn't by itself mean anything has started.
 
+### What happens in a free-spin round
+
+The feature scatters start most often is a **free-spin round**: a set number of spins that play automatically, without using any of your Gold Coins. The game usually tells you how many spins you've got, and a counter ticks down as they play.
+
+What makes these rounds interesting from a design point of view is that the rules often change while they run. Common changes include:
+
+- **Retriggers.** Landing enough scatters during the round adds more spins.
+- **Sticky or extra wilds.** Wilds stay in place, or appear more often, until the round ends.
+- **A round-wide multiplier.** A factor such as 2x applies to results for the whole round, and in some games it grows as the round goes on.
+
+None of these are guaranteed in any given game. The paytable lists exactly what starts the round, how many spins you get and what changes during it.
+
 ## What is a multiplier symbol?
 
 A **multiplier** increases a qualifying result by a stated factor. A 2x multiplier doubles it; a 5x multiplier applies five times.

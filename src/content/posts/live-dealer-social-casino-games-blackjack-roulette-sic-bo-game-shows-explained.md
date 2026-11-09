@@ -26,7 +26,7 @@ A **live dealer game** is a casino-style table game or game show run by a real h
 
 ## Live blackjack
 
-Blackjack is the game I dealt most, and the rule at its heart is simple: build a hand closer to 21 than the dealer's without going over.
+Blackjack is the game I dealt most, and the rule at its heart is simple: build a hand closer to 21 than the dealer's without going over. If you want the full walk-through of hard and soft hands, splitting and doubling, start with our [blackjack basics](/blackjack-basics-understanding-the-flow-of-the-game/).
 
 In a live version you watch real cards come out and the dealer play their hand, just as you would at a physical table. Some versions add their own twists. Our [live blackjack tables](https://www.jackpota.com/games/live-dealer/gravity-blackjack) include multiplier features, for example. Every version has its own rules panel, and it's worth a quick look before you sit down. That's what I'd tell anyone joining my table for the first time.
 
