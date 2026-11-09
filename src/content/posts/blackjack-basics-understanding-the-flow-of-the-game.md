@@ -54,8 +54,6 @@ Same total, very different situations. You'll see the game display both values o
 
 **Split** appears when your first two cards are a pair. The pair becomes two separate hands, each gets a second card, and you play them one after the other. Each split hand needs its own coin amount, matching the original.
 
-Many games also offer **insurance** when the dealer's up card is an ace. It's an optional side bet on whether the dealer has blackjack, and you can always decline it. The game's rules panel explains how it's settled.
-
 ## The dealer's turn: no choices, only rules
 
 Once every player has finished, the dealer turns over the hidden card and plays the hand. This is where new players are often surprised, because the dealer doesn't decide anything. The house rules decide.
@@ -73,7 +71,7 @@ When I dealt, players sometimes thought I'd hit a 16 by choice. I never had one.
 
 ## Blackjack games on Jackpota
 
-Our [table games section](https://www.jackpota.com/games/slots/blackjack) has several versions of digital blackjack. **Blackjack Suited** is the standard game. **Blackjack Suited 21+3** and **Blackjack Suited Perfect Pairs** add an optional side bet: 21+3 looks at your two cards plus the dealer's up card as a three-card poker hand, and Perfect Pairs looks at whether your first two cards make a pair. There are also single-hand and VIP versions, which keep the same core game.
+Our [table games section](https://www.jackpota.com/games/slots/blackjack) has several versions of digital blackjack. **Blackjack Suited** is the standard game. **Blackjack Suited 21+3** and **Blackjack Suited Perfect Pairs** add an extra layer to the deal: 21+3 looks at your two cards plus the dealer's up card as a three-card poker hand, and Perfect Pairs looks at whether your first two cards make a pair. There are also single-hand and VIP versions, which keep the same core game.
 
 The main game works exactly as described above in all of them, but small table rules can differ. Before your first hand in a new version, open the info screen and check two things: whether the dealer hits soft 17, and when doubling and splitting are allowed.
 
