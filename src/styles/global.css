@@ -53,19 +53,20 @@ main.wrap { padding-block: 0 56px; }
 .carousel { position: relative; border-radius: 0 0 var(--radius) var(--radius); overflow: hidden; background: var(--panel); }
 .carousel-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
 .carousel-track::-webkit-scrollbar { display: none; }
-.carousel-slide { flex: 0 0 100%; scroll-snap-align: start; display: block; text-decoration: none; color: var(--white); }
+.carousel-slide { flex: 0 0 100%; scroll-snap-align: start; display: flex; flex-direction: column; text-decoration: none; color: var(--white); }
 .carousel-slide img { display: block; width: 100%; height: auto; aspect-ratio: 1408 / 768; object-fit: cover; }
-.carousel-caption { padding: 16px 20px 44px; }
+.carousel-caption { flex: 1; padding: 18px 150px 20px 24px; border-top: 3px solid #FFCD36; background: linear-gradient(180deg, #141414, #0b0b0b); box-shadow: inset 0 14px 30px -18px rgba(255,205,54,.55); }
+.carousel-kicker { display: block; margin-bottom: 6px; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #FFCD36; }
 .carousel-caption h2 { margin: 0; font-size: clamp(19px, 2.2vw, 28px); line-height: 1.25; }
 .carousel-slide:hover h2, .carousel-slide:focus-visible h2 { color: var(--gold); }
-.carousel-btn { position: absolute; top: calc((100% - 70px) / 2); transform: translateY(-50%); z-index: 2; width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer;
+.carousel-btn { position: absolute; top: calc((100% - 100px) / 2); transform: translateY(-50%); z-index: 2; width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer;
   background: rgba(0,0,0,.55); color: #fff; font-size: 30px; line-height: 1; display: grid; place-items: center; }
 .carousel-btn:hover, .carousel-btn:focus-visible { background: var(--gold); color: #000; }
 .carousel-btn.prev { left: 12px; } .carousel-btn.next { right: 12px; }
-.carousel-dots { position: absolute; left: 20px; bottom: 16px; z-index: 2; display: flex; gap: 8px; }
+.carousel-dots { position: absolute; right: 24px; bottom: 28px; z-index: 2; display: flex; gap: 8px; }
 .carousel-dots button { width: 10px; height: 10px; padding: 0; border-radius: 50%; border: 0; cursor: pointer; background: rgba(255,255,255,.35); }
 .carousel-dots button[aria-selected="true"] { background: var(--gold); width: 26px; border-radius: 6px; }
-@media (max-width: 600px) { .carousel-btn { display: none; } .carousel-caption { padding: 12px 16px 38px; } .carousel-dots { left: 16px; bottom: 14px; } }
+@media (max-width: 600px) { .carousel-btn { display: none; } .carousel-caption { padding: 14px 16px 40px; } .carousel-dots { right: auto; left: 16px; bottom: 14px; } }
 
 .section-title { display: flex; align-items: center; gap: 24px; color: var(--gold); font-size: 30px; margin: 28px 0 22px; }
 .section-title::after { content: ''; flex: 1; border-top: 1px solid var(--line); }
