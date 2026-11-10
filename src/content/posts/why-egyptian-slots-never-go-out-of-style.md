@@ -12,7 +12,7 @@ image:
 seo:
   title: "Why Egyptian Slots Never Go Out of Style | Jackpota Blog"
   description: "Why do so many slots go back to ancient Egypt? We looked at 60+ Egyptian games in our lobby, the history behind the theme and why Cleopatra leads it."
-draft: true
+draft: false
 ---
 
 When we went through our slots lobby theme by theme, ancient Egypt stood out. We counted 64 Egyptian-themed slots from over 20 different studios, from Cleopatra and pharaohs to mummies, scarabs and the sun god Ra. No single company decided Egypt should be everywhere. Dozens of separate design teams kept arriving at the same 3,000-year-old setting on their own.
