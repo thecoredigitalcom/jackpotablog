@@ -37,7 +37,7 @@ In our lobby, the theme splits into a few familiar families:
 
 ## Where the fascination started
 
-America's taste for all things Egyptian is older than any slot machine. When the Treasures of Tutankhamun exhibition toured the United States from 1976 to 1979, more than 6 million people saw it across six cities, according to the [National Endowment for the Humanities](https://www.neh.gov/project/king-tut-comes-america). "Tutmania" followed: Tut-themed cocktails, Nefertiti salads, T-shirts and housewares.
+America's taste for all things Egyptian is older than any slot machine. When the Treasures of Tutankhamun exhibition toured the United States from 1976 to 1979, more than 6 million people saw it across six cities, according to the National Endowment for the Humanities. "Tutmania" followed: Tut-themed cocktails, Nefertiti salads, T-shirts and housewares.
 
 That matters for game design. By the time Egyptian slots arrived, pyramids, pharaohs and golden masks were already part of popular culture. A designer could put a scarab on a reel and know almost every player would recognize it.
 
@@ -57,9 +57,9 @@ Looking at Egyptian slots from a design point of view, a few strengths stand out
 
 The clearest sign of the theme's pull is how often studios return to it.
 
-3 Oaks Gaming's Sun of Egypt is a good example. It has grown into a full series, and our lobby carries five entries, from the original [Sun of Egypt](https://www.jackpota.com/games/slots/sun-of-egypt) to Sun of Egypt 4 Hold & Win and Sun of Egypt 5. When the fourth game launched in 2024, the studio [said the series showed continued appeal with players worldwide](https://europeangaming.eu/portal/latest-news/2024/01/04/150033/dig-for-flaming-hot-treasures-in-3-oaks-gamings-sun-of-egypt-4-hold-and-win/).
+3 Oaks Gaming's Sun of Egypt is a good example. It has grown into a full series, and our lobby carries five entries, from the original [Sun of Egypt](https://www.jackpota.com/games/slots/sun-of-egypt) to Sun of Egypt 4 Hold & Win and Sun of Egypt 5. When the fourth game launched in 2024, the studio said the series showed continued appeal with players worldwide.
 
-Studios also tend to try new formats on Egypt. When Playson released [its first Megaways slot](https://igamingbusiness.com/company-news/playson-bows-down-to-the-queen-in-legend-of-cleopatra-megaways/) in December 2020, it chose an Egyptian classic: [Legend of Cleopatra Megaways](https://www.jackpota.com/games/slots/legend-of-cleopatra-megaways). A familiar theme lets players focus on the new mechanics without having to learn a new world at the same time.
+Studios also tend to try new formats on Egypt. When Playson released its first Megaways slot in December 2020, it chose an Egyptian classic: [Legend of Cleopatra Megaways](https://www.jackpota.com/games/slots/legend-of-cleopatra-megaways). A familiar theme lets players focus on the new mechanics without having to learn a new world at the same time.
 
 ## The Cleopatra effect
 
@@ -86,3 +86,9 @@ All of them are free to play, no purchase necessary. Try one, take a break, or s
 ## The takeaway
 
 Egyptian slots last because the theme does a lot of work for designers. Players already know the symbols, the story of hidden treasure is built in, and the look suits a spinning reel. That's why dozens of studios keep returning to it, and why our lobby has more than 60 ways to visit.
+
+## Sources
+
+- National Endowment for the Humanities, [King Tut Comes to America](https://www.neh.gov/project/king-tut-comes-america)
+- European Gaming, [Dig for flaming hot treasures in 3 Oaks Gaming's Sun of Egypt 4: Hold and Win](https://europeangaming.eu/portal/latest-news/2024/01/04/150033/dig-for-flaming-hot-treasures-in-3-oaks-gamings-sun-of-egypt-4-hold-and-win/) (January 2024)
+- iGaming Business, [Playson bows down to the queen in Legend of Cleopatra: Megaways](https://igamingbusiness.com/company-news/playson-bows-down-to-the-queen-in-legend-of-cleopatra-megaways/)
