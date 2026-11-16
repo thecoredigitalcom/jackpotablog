@@ -121,12 +121,12 @@ That last one matters to me. A meter is fun to watch, and it's just as fine to i
 
 If you'd like to see the matching meters for yourself, these six show the range:
 
-- **Chonky Kong: Hold & Win** (Penguin King): the crowned gorilla from the top of this article
+- **[Chonky Kong: Hold & Win](https://www.jackpota.com/games/slots/chonky-kong-hold-and-win)** (Penguin King): the crowned gorilla from the top of this article
 - **Joker Jackpots: Prize Mania** (Penguin King): one of the three that does say "jackpot" in the name
-- **Candyland Jackpots** (Penguin King): bright, sweet-shop styling
-- **Reel Bass: Jackpot Catch** (Penguin King): a fishing theme with a gold-suited captain
-- **4 Pots Riches: Hold and Win Power Chance** (Playson): a leprechaun-led Hold & Win game
-- **Thunder Coins: Hold and Win Power Chance** (Playson): a lightning bolt on a gold coin, in electric blue
+- **[Candyland Jackpots](https://www.jackpota.com/games/slots/candyland-jackpots)** (Penguin King): bright, sweet-shop styling
+- **[Reel Bass: Jackpot Catch](https://www.jackpota.com/games/slots/reel-bass-jackpot-catch)** (Penguin King): a fishing theme with a gold-suited captain
+- **[4 Pots Riches: Hold and Win Power Chance](https://www.jackpota.com/games/slots/4-pots-riches-hold-and-win-power-chance)** (Playson): a leprechaun-led Hold & Win game
+- **[Thunder Coins: Hold and Win Power Chance](https://www.jackpota.com/games/slots/thunder-coins-hold-and-win-power-chance)** (Playson): a lightning bolt on a gold coin, in electric blue
 
 All of them are free to play, no purchase necessary. Open one, look around, and close it whenever you like.
 
