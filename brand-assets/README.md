@@ -36,6 +36,7 @@ See the main README's featured image rules for size and safe area.
 | Are Social Casino Games Really Free to Play? | Mythological trio: bearded god with trident, warrior queen, hammer-wielding god (gold/purple) | Post's previous featured image, cut out |
 | Best Mobile Slots at Jackpota | No character; phone with slot reels is the hero (teal) | Reels phone from the post's previous featured image |
 | How to Keep Social Casino Games Fun | Pink JACKPOT slot machine with a gold stopwatch (magenta); green coins recolored gold | Post's previous featured image, cut out |
+| Progressive Jackpot Slots: How One Jackpot Is Shared Across Many Games | Crowned gorilla (`char-chonky-kong.png`) behind a gold JACKPOT marquee sign, with a stack of game tiles (green glow); tile badge and cut edges hidden behind coins | Chonky Kong: Hold & Win game tile on jackpota.com |
 
 Character art from the brand kit's promo banners (owl, wolf, tiger, buffalo, fortune god, cupid, tiki, mariachi and others) can be cut out for future posts. Remove any baked-in badges, text and green SC bills.
 
