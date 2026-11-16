@@ -22,6 +22,14 @@ image:
 seo:
   title: "Post title | Jackpota Blog"
   description: "Meta description, ~150 characters."
+schema:                           # optional structured data
+  about:                          # the one concept the post defines
+    name: "Progressive jackpot"
+    description: "One-sentence definition, as written in the post."
+    sameAs: "https://en.wikipedia.org/wiki/..."   # optional
+  citations:                      # the external sources listed under Sources
+    - name: "Source title (Publisher)"
+      url: "https://..."
 draft: false                      # true = not published
 featured: false                   # true = pinned to the homepage carousel
 ---

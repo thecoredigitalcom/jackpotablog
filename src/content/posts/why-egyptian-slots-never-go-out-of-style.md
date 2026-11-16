@@ -12,6 +12,14 @@ image:
 seo:
   title: "Why Egyptian Slots Never Go Out of Style | Jackpota Blog"
   description: "Why do so many slots go back to ancient Egypt? We looked at 60+ Egyptian games in our lobby, the history behind the theme and why Cleopatra leads it."
+schema:
+  citations:
+    - name: "King Tut Comes to America (National Endowment for the Humanities)"
+      url: "https://www.neh.gov/project/king-tut-comes-america"
+    - name: "Dig for flaming hot treasures in 3 Oaks Gaming's Sun of Egypt 4: Hold and Win (European Gaming)"
+      url: "https://europeangaming.eu/portal/latest-news/2024/01/04/150033/dig-for-flaming-hot-treasures-in-3-oaks-gamings-sun-of-egypt-4-hold-and-win/"
+    - name: "Playson bows down to the queen in Legend of Cleopatra: Megaways (iGaming Business)"
+      url: "https://igamingbusiness.com/company-news/playson-bows-down-to-the-queen-in-legend-of-cleopatra-megaways/"
 draft: false
 ---
 

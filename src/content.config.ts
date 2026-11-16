@@ -19,6 +19,12 @@ const posts = defineCollection({
     draft: z.boolean().default(false),
     featured: z.boolean().default(false),
     wpId: z.number().optional(),
+    schema: z
+      .object({
+        about: z.object({ name: z.string(), description: z.string(), sameAs: z.string().optional() }).optional(),
+        citations: z.array(z.object({ name: z.string(), url: z.string() })).default([]),
+      })
+      .default({ citations: [] }),
   }),
 });
 

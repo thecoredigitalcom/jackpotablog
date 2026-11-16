@@ -5,7 +5,7 @@ import '@fontsource/ubuntu/700.css';
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE } from '../site';
+import { SITE, FOOTER } from '../site';
 
 interface Props {
   title: string;
@@ -48,6 +48,7 @@ const graph = [
     name: 'Jackpota',
     url: 'https://www.jackpota.com/',
     logo: { '@type': 'ImageObject', url: new URL(SITE.logo, SITE.url).href },
+    sameAs: FOOTER.social.filter((x) => x.label !== 'Discord').map((x) => x.href),
   },
   ...(p.schema || []),
 ];

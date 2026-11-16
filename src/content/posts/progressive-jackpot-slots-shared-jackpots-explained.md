@@ -1,6 +1,6 @@
 ---
 title: "Progressive Jackpot Slots: How One Jackpot Is Shared Across Many Games"
-date: "2026-11-17T14:00:00Z"
+date: "2026-11-16T13:30:00Z"
 author: "mike-rossi"
 categories: ["slots"]
 excerpt: "We counted the slots in our lobby that share a progressive jackpot: 79 out of 2,229, from just two studios. Here's what a shared jackpot is and how to spot one."
@@ -12,7 +12,17 @@ image:
 seo:
   title: "Progressive Jackpot Slots: How Shared Jackpots Work | Jackpota Blog"
   description: "What is a progressive jackpot slot? We counted the 79 slots in our lobby that share one and explain how a single jackpot can sit across dozens of games."
-draft: true
+schema:
+  about:
+    name: "Progressive jackpot"
+    description: "A jackpot whose amount grows as people play and resets to a starting value once it is awarded."
+    sameAs: "https://en.wikipedia.org/wiki/Progressive_jackpot"
+  citations:
+    - name: "Gold Coins Jackpot promotion terms"
+      url: "https://www.jackpota.com/promotions/gc-jackpot"
+    - name: "How Playson designed Power Chance to keep jackpot players coming back (NEXT.io)"
+      url: "https://next.io/news/promoted/how-playson-designed-power-chance-to-keep-jackpot-players-coming-back/"
+draft: false
 ---
 
 Scroll through our slots lobby and you'll catch something odd. A gorilla in a crown, a joker, a candy swirl and a fishing captain are four completely different games, and all four show the same Gold Coin number on their tiles.

@@ -30,12 +30,20 @@ const schema = [
     image: img ? { '@type': 'ImageObject', url: img, width: d.image?.width, height: d.image?.height } : undefined,
     datePublished: d.date.toISOString(),
     dateModified: (d.modified || d.date).toISOString(),
-    author: author ? { '@type': 'Person', name: author.name, url: new URL(authorUrl(author.slug), SITE.url).href } : undefined,
+    author: author
+      ? { '@type': 'Person', name: author.name, url: new URL(authorUrl(author.slug), SITE.url).href, description: author.bio || undefined }
+      : undefined,
     publisher: { '@id': `${SITE.url}/#organization` },
     isPartOf: { '@id': `${SITE.url}/#website` },
     articleSection: cat?.name,
     wordCount: (post.body || '').split(/\s+/).filter(Boolean).length,
     inLanguage: 'en-US',
+    about: d.schema.about
+      ? { '@type': 'DefinedTerm', name: d.schema.about.name, description: d.schema.about.description, sameAs: d.schema.about.sameAs }
+      : undefined,
+    citation: d.schema.citations.length
+      ? d.schema.citations.map((c) => ({ '@type': 'CreativeWork', name: c.name, url: c.url }))
+      : undefined,
   },
   crumbSchema(crumbs),
 ];
